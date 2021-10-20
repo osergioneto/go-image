@@ -1,5 +1,5 @@
 # Build
-FROM golang:1.17-alpine as build
+FROM golang:1.16-alpine as build
 
 WORKDIR /build
 COPY main.go ./
